@@ -1,0 +1,26 @@
+<view class="containe">
+  <view class="header">
+    <view class="source">数据来源:www.gwfx.com</view>
+    <view class="time">更新日期:{{date}}</view>
+  </view>
+  <view class="search">
+    <!-- <input placeholder="请输入货币名称或代码查询" /> -->
+  </view>
+  <view class="content">
+    <view class="item" a:for="{{list}}">
+      <view class="item-left">
+        <image src="../../images/flag-{{index}}.png "  />
+        <text>{{item.holdCurrencyName}}</text>
+      </view>
+      <view class="item-center">
+        <text>100</text>
+        <view class="money">USD =</view>
+        <view class="transform">{{item.standardPrice}}</view>
+      </view>
+      <view class="china">
+        <text>CNY</text>
+        <image src="../../images/flag.png " mode="" />
+      </view>
+    </view>
+  </view>
+</view>

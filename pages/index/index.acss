@@ -1,0 +1,97 @@
+view {
+    box-sizing: border-box;
+}
+.header {
+    padding: 30rpx 50rpx;
+    width: 100%;
+    font-size: 12px;
+    color: #cacaca;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containe {
+    background: f5f5f5;
+    width: 100%;
+}
+.search { 
+    position: relative;
+    
+}
+input {
+    padding: 0 40rpx;
+    line-height: 90rpx;
+    height: 90rpx;
+    width: 90%;
+    box-sizing: border-box;
+    color: #bcbcbc;
+    font-size: 14px;    
+    margin: 0 auto;
+    display: block;
+    border: 3px solid #e6e6e6;
+    border-radius: 10rpx;
+    position: relative;
+}
+.search:after {
+    content: '';
+    display: block;
+    /* background-image: url('../../images/sou-btn.png') ; */
+    background-size: 100%;
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    right: 60rpx;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.content {
+    font-size: 30rpx;
+    margin-top: 25rpx;
+}
+.item {
+    height: 100rpx;
+    line-height: 100rpx;
+    width: 100%;
+    margin-bottom: 15rpx;
+    background: #fff;
+    display: flex;
+    font-size: 25rpx;
+}
+.item >view {
+    display: flex;
+    align-items: center;
+}
+.item-left {
+    display: flex;
+    align-items: center;
+    padding-left: 45rpx;
+    color: #555;
+    flex: 1;
+}
+image {
+    margin-right: 20rpx;
+    width: 80rpx;
+    height: 50rpx;
+}
+.item-center{
+    width: 250rpx;
+}
+.item-center .money{
+    color: #b8b8b8;
+}
+.item-center .transform{
+    color: #3e80cc;
+    font-weight: bold;
+    margin-left: 20rpx;
+}
+.item-center text{
+    margin-right: 10rpx;    
+    color: #555;
+    font-weight: bold;
+}
+
+.china text {
+    color: #b8b8b8;
+    margin-left: 40rpx;
+    margin-right: 20rpx;
+}
