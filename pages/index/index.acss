@@ -4,7 +4,7 @@ view {
 .header {
     padding: 30rpx 50rpx;
     width: 100%;
-    font-size: 12px;
+    font-size: 22rpx;
     color: #cacaca;
     display: flex;
     justify-content: space-between;

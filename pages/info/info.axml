@@ -1,0 +1,35 @@
+<view class="info">
+  <image src="../../images/info1.png" mode="" />
+  <view class="introduction">
+    <text>  金道环球投资（GWFX）为金道集团旗下业务品牌，提供24小时外汇、WTI等多元化环球金融产品在线交易，致力以优质的客户服务，领先的平台技术，极具竞争力的交易条件，满足环球投资者的不同需要。GWFX同时为客户提供金道环球投资（英国）有限公司（Goldenway Global Investments（UK）Limited）及金道环球投资有限公司（Goldenway Global Investments Limited）的外汇及差价合约（CFD）杠杆式投资服务，为客户提供最理想的投资环境。  </text>
+  </view>
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class="weui-panel__hd contact">联系我们</view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_small-appmsg">
+          <view class="weui-cells weui-cells_in-small-appmsg">
+            <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"></view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>客服热线：4001208906</view>
+              </view>
+            </view>
+            <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"></view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>企业QQ：800018886</view>
+              </view>
+            </view>
+            <view url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"></view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>公司邮箱：cs@gwfx.com</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

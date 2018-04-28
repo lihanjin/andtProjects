@@ -1,3 +1,4 @@
+@import './style/weui.acss';
 page {
   flex: 1;
   display: flex;

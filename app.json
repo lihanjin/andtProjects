@@ -1,8 +1,37 @@
 {
   "pages": [
-    "pages/index/index"  
+    "pages/index/index",
+    "pages/success/success",
+    "pages/login/login",
+    "pages/activi/activi",
+    "pages/info/info"
   ],
   "window": {
     "defaultTitle": "外汇实时行情"
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#108ee9",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon": "images/data-foot-i1.png",
+        "activeIcon": "images/data-foot-i1o.png",
+        "name": "市场行情"
+      },
+      {
+        "pagePath": "pages/activi/activi",
+        "icon": "images/data-foot-i2.png",
+        "activeIcon": "images/data-foot-i2o.png",
+        "name": "活动"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "icon": "images/data-foot-i3.png",
+        "activeIcon": "images/data-foot-i3o.png",
+        "name": "关于我们"
+      }
+    ]
   }
 }

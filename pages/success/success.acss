@@ -1,0 +1,47 @@
+/* index.wxss */
+page{
+  background: #fff;
+}
+.succ-conbox{
+  color:#555;
+  margin:105rpx auto 0;
+  width:234px;
+  text-align:center;
+  white-space:nowrap;
+}
+.succ-conbox image{
+  width:70px;
+  height:70px;
+}
+.succ-item{
+  margin-top:60rpx;
+}
+.succ-item .succ-tt{
+  font-size:26px;
+  color:#1b82d2;
+}
+.succ-item .succ-pp{
+  margin:36rpx auto 0;
+  width:140px;
+  font-size:17px;
+  line-height:1.6;
+}
+.succ-item .succ-pp text{
+  display:block;
+  width:100%;
+  text-align:left;
+  white-space:nowrap;
+}
+.succ-fot-plist{
+  margin-top:70rpx;
+  padding:45rpx 0;
+  border:solid #EAEAEA;
+  border-width:1px 0;
+  font-size:17px;
+  line-height:1.8;
+}
+.succ-fot-plist .red-txt{
+  display:block;
+  width:100%;
+  color:#ee5c5c;
+}

@@ -1,0 +1,21 @@
+.info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  background: #fff;
+}
+image {
+    width: 100%;
+}
+
+.introduction,.address{
+  width: 90%;
+  margin:  0 auto;
+  margin-bottom: 20rpx;
+}
+.introduction text{
+  font-size:30rpx;
+  line-height: 40rpx;
+}

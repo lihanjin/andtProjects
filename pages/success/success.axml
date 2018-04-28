@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="succ-conbox">
+  <image src="/images/succ-icon.png"></image>
+  <view class="succ-item">
+    <text class="succ-tt">恭喜您，开户成功！</text>
+    <view class="succ-pp">
+      <text>账号：{{customerNumber}}</text>
+      <text>密码：{{password}}</text>
+    </view>
+  </view>
+  <view class="succ-fot-plist">
+    <text>软件下载链接已发至手机短信</text>
+    <text class="red-txt">激活立即享受200美元开户赠金</text>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="activi">
+  <navigator url="/pages/login/login" >
+    <image src="/images/banner.jpg" />  
+  </navigator>
+</view>

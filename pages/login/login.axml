@@ -1,0 +1,31 @@
+<view class="login login-formbox">
+  <form bindsubmit="formBindsubmit">
+  <view class="phone">
+    <input type="number" placeholder="" auto-focus  />
+    <view class="code"></view>
+  </view>
+  <view class="codeInput">
+    <input type="text" placeholder="" auto-focus  />
+  </view>
+  <!-- 性别 -->
+  <view class="form-item">
+    <text class="inp-ic2"></text>
+    <input onInput="phoneNumber" bindfocus='trim' value="{{phoneNumber}}" type="number" focus='{{phoneFocus}}' maxlength="11" class="form-inp {{phoneNumberFlag==false?'inp-erro-fon':''}} form-phone" name="phoneNumber" placeholder="手机号码" focus="{{focus}}" id='phone'/>
+    <button type="{{primary}}" size="default" loading="{{loading}}" disabled="{{disabled}}" onTap='authCode' id='code-button' class="getCode"> {{codeTitle}} </button>
+    <!-- <text class="erro-icon" wx:if="{{phoneNumber == false}}" cathtap="trim"></text>  -->
+  </view>
+  <!-- 手机号验证码 -->
+  <view class="form-item">
+    <text class="inp-ic4"></text>
+    <input onBlur="authNumber" bindfocus='trim' value="{{authNumber}}" class="form-inp {{authNumberFlag==false?'inp-erro-fon':''}}" name="authNumber" placeholder="请输入验证码" id='authcode'/>
+    <text class="erro-icon" a:if="{{authNumberFlag == false}}" bindtap="trim"></text>
+  </view>
+  <!-- 验证码 -->
+  <view class="form-item">
+    <!-- <navigator url="/pages/succ/index">  -->
+    <button class="form-submit" formType="submit" onTap="formBindsubmit">提交</button>
+    <!-- </navigator>  -->
+  </view>
+  <text class="tips-info">{{tip}}</text>
+  </form>
+</view>
